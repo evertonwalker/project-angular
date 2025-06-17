@@ -7,4 +7,8 @@
   justify-content: space-between;
   background-color: bisque;
   flex-wrap: wrap;
+
+  label {
+    word-break: break-all;
+  }
 }
