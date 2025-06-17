@@ -1,0 +1,13 @@
+<div class="main-container">
+  <input
+    type="text"
+    placeholder="Filter users by the name"
+    (change)="filterUsers($event)"
+  />
+
+  <ul>
+    @for (user of users; track user; let i = $index) {
+    <li><app-user-card [user]="user"></app-user-card></li>
+    }
+  </ul>
+</div>

@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ListUsers } from './Users/list-users/list-users';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [ListUsers],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrl: './app.scss',
 })
-export class App {
-  protected title = 'project';
-}
+export class App {}

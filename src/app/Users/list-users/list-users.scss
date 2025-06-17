@@ -1,0 +1,21 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+
+  input {
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style-type: none;
+    padding: 0px;
+  }
+}

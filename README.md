@@ -1,59 +1,28 @@
-# Project
+Code Challenge for Front End Developer (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.2.
+Code Challenge
 
-## Development server
+Task Description
 
-To start a local development server, run:
+Create a simple Angular application that displays a list of users fetched from a public REST API. The application should be responsive and include the following features:
 
-```bash
-ng serve
-```
+- Fetch user data from the JSONPlaceholder API.
+- Display the user names and email addresses in a responsive card layout.
+- Implement a search functionality that allows users to filter the displayed users by name.
+- Ensure that the application follows best practices for Angular development, including the use of components, services, and reactive programming.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Requirements
 
-## Code scaffolding
+- Use Angular (preferably Angular 11 or higher).
+- Implement responsive design using CSS or a CSS framework (e.g., Bootstrap).
+- Use RxJS for handling asynchronous data fetching.
+- Write clean, maintainable code adhering to SOLID principles.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Challenge Duration
+The challenge should be solvable in less than 30 minutes.
 
-```bash
-ng generate component component-name
-```
+External Resources
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Public API: JSONPlaceholder - This is a free REST API that provides fake user data.
+- Angular CLI: Angular CLI Documentation - Use this to set up your Angular project.
+- Bootstrap: Bootstrap Documentation - Optional for responsive design.
